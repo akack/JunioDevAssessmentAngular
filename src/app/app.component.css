@@ -1,0 +1,23 @@
+.table-bordered thead{
+    background-color: darkslateblue;
+    color: white;
+    
+}
+
+.table-bordered thead th{
+    width: 15em;
+}
+
+.table-bordered tbody td{
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.table-bordered tbody td:last-child{
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.del {
+    width: 5em;
+}
